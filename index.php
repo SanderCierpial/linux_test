@@ -17,6 +17,12 @@
 
 <h1>index fix</h1>
 
+<?php
+$results = json_decode(file_get_contents('https://linuxdbapp.000webhostapp.com/getlinux.php'));
 
+foreach ($results as $result){
+    echo "<h1>.{{ $result->name }}.</h1>";
+}
+?>
 </body>
 </html>
