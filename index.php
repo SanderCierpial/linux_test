@@ -51,7 +51,7 @@
 </nav>
 
 <?php
-$db = new mysqli('phpmyadmin.sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
+$db = new mysqli('sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
 
 if($db->connect_errno > 0) {
     die('Unable to connect to database [' . $db->connect_error . ']');
