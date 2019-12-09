@@ -50,6 +50,19 @@
     </div>
 </nav>
 
+<div>
+    <?php
+    $characters1=['Suske', 'Willy', 'Kuifje', 'Tintin','Jommeke', 'Jeremy'];
+    $characters2=['Wiske', 'Wanda', 'Bobby', 'Snowy','Filiberke', 'Frankie'];
+    for ($i = 0; $i < count($characters1); $i+=2) {
+        echo "<p> $characters1[$i] en $characters2[$i]</p>\n";
+    }
+    for ($i = 1; $i < count($characters1); $i+=2) {
+        echo "<p>  $characters1[$i] en $characters2[$i] </p>\n";
+    }
+    ?>
+</div>
+
 <?php
 $db = new mysqli('sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
 
