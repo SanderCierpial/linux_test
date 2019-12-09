@@ -19,7 +19,7 @@
 <h1>index fix</h1>
 
 <?php
-$db = new mysqli('localhost', 'homestead', 'secret', 'linux', '33060');
+$db = new mysqli('db.sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject', '21');
 
 $sql = 'SELECT * FROM docenten';
 
