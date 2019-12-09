@@ -19,22 +19,11 @@
 <h1>index fix</h1>
 
 <?php
-$db = new mysqli('localhost', 'pma', 'pmapass', 'sandercierpial_linuxproject', '3434');
+$results = file_get_contents('http://domain.com/dir/script.php');
 
-$sql = 'SELECT * FROM docenten';
-
-if($result = $db->query($sql)){
-    while($row = $result->fetch_assoc()){
-        echo $row['name'] . ' ' . $row['surname'] . '<br />';
-    }
+foreach ($results as $result){
+    echo "<h1>.{{ $result->name }}.</h1>";
 }
-
-
-
-$result->free();
-$db->close();
-
 ?>
-
 </body>
 </html>
