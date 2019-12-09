@@ -19,22 +19,22 @@
 <h1>index fix</h1>
 
 <?php
-//$db = new mysqli('localhost', 'homestead', 'secret', 'linux', '33060');
-//
-//$sql = 'SELECT * FROM docenten';
-//
-//if($result = $db->query($sql)){
-//    while($row = $result->fetch_assoc()){
-//        echo $row['name'] . ' ' . $row['surname'] . '<br />';
-//    }
-//}
-//
-//
-//
-//$result->free();
-//$db->close();
-//
-//?>
+$db = new mysqli('localhost', 'homestead', 'secret', 'linux', '33060');
+
+$sql = 'SELECT * FROM docenten';
+
+if($result = $db->query($sql)){
+    while($row = $result->fetch_assoc()){
+        echo $row['name'] . ' ' . $row['surname'] . '<br />';
+    }
+}
+
+
+
+$result->free();
+$db->close();
+
+?>
 
 </body>
 </html>
