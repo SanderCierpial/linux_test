@@ -16,7 +16,7 @@
 
 <?php include_once('shared/nav.php') ?>
 
-<h1>index</h1>
+<h1>database test</h1>
 
 <?php
 $db = new mysqli('sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
