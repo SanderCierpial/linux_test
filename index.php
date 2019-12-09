@@ -19,10 +19,11 @@
 <h1>index</h1>
 
 <?php
-$db = new mysqli('sinners.be:22', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
+$db = new mysqli('localhost:3306', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
 
 if($db->connect_errno > 0) {
     die('Unable to connect to database [' . $db->connect_error . ']');
+    console.log("Unable to connect to database");
 }
 
 $sql = 'SELECT * FROM docenten';
