@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">/
+<html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -51,7 +51,7 @@
 </nav>
 
 <?php
-$db = new mysqli('db.sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
+$db = new mysqli('phpmyadmin.sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
 
 if($db->connect_errno > 0) {
     die('Unable to connect to database [' . $db->connect_error . ']');
