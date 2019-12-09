@@ -1,4 +1,4 @@
-<h1>Docenten</h1>
+<h1>Docenten test</h1>
 
 <?php
 $db = new mysqli('db.sinners.be', 'sandercierpial', 'miVJbF2K8adR', 'sandercierpial_linuxproject');
