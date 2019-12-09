@@ -19,25 +19,22 @@
 <h1>index fix</h1>
 
 <?php
-$db = new mysqli('localhost', 'homestead', 'secret', 'linux', '33060');
-
-if($db->connect_errno > 0) {
-    die('Unable to connect to database [' . $db->connect_error . ']');
-    console.log("Unable to connect to database");
-}
-
-$sql = 'SELECT * FROM docenten';
-
-if($result = $db->query($sql)){
-    while($row = $result->fetch_assoc()){
-        echo $row['name'] . ' ' . $row['surname'] . '<br />';
-    }
-}
-
-$result->free();
-$db->close();
-
-?>
+//$db = new mysqli('localhost', 'homestead', 'secret', 'linux', '33060');
+//
+//$sql = 'SELECT * FROM docenten';
+//
+//if($result = $db->query($sql)){
+//    while($row = $result->fetch_assoc()){
+//        echo $row['name'] . ' ' . $row['surname'] . '<br />';
+//    }
+//}
+//
+//
+//
+//$result->free();
+//$db->close();
+//
+//?>
 
 </body>
 </html>
