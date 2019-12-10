@@ -33,6 +33,7 @@
 </nav>
 
 <?php include 'nav.php';?>
+<?php include 'shared/nav.php';?>
 
 <?php
 $results = json_decode(file_get_contents('https://linuxdbapp.000webhostapp.com/getlinux.php'));
