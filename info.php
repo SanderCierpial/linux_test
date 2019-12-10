@@ -37,7 +37,7 @@
         Info
     </div>
     <div class="card-body">
-        <p class="card-text">This is a basic php webapplilication with a lightweight linux distribution, namely CentOs</p>
+        <p class="card-text">This is a basic php webapplication with a lightweight linux distribution, namely CentOs</p>
     </div>
 </div>
 
